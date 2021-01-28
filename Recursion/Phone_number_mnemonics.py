@@ -19,5 +19,5 @@ def bla(phone_number,key_pad,combination,combinations):
             bla(phone_number[1:],key_pad,current_combination,combinations)
 
 
-print(phoneNumberMnemonics('1905'))
+print(phoneNumberMnemonics('19145605'))
 
