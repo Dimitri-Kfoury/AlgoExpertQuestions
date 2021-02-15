@@ -17,9 +17,3 @@ def sunsetViews(buildings, direction):
 
     return stack
 
-
-
-buildings =  [3, 5, 4, 4, 3, 1, 3, 2]
-direction = 'WEST'
-
-print(sunsetViews(buildings,direction))

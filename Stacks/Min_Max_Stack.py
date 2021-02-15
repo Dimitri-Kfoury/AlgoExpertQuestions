@@ -33,6 +33,3 @@ class MinMaxStack:
         return None
 
 
-array = [0, 1, 2, 2, 3]
-
-print(array[len(array) - 1])

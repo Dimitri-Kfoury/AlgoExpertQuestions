@@ -20,7 +20,7 @@ def diskStacking(disks):
 def areValidDimensions(disk,otherDisk):
     return otherDisk[0] < disk[0] and otherDisk[1] < disk[1] and otherDisk[2] < disk[2]
 
-def buildSequence(sequences,disk,maxIdx):
+def buildSequence(sequences,disks,maxIdx):
     sequence = []
     i = maxIdx
     while sequence[i] is not None:

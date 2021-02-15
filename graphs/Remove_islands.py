@@ -31,9 +31,3 @@ def remove_1s(i, j, matrix, visited_nodes):
             remove_1s(i, j - 1, matrix, visited_nodes)
 
 
-matrix =  [[1]]
-
-islands = removeIslands(matrix)
-
-for i in range(len(islands)):
-    print(islands[i])

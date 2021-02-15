@@ -56,11 +56,3 @@ def reconstruct_list(first_head, first_tail, second_head, second_tail, third_hea
     return third_head
 
 
-head = LinkedList(3)
-head.next = LinkedList(0)
-head.next.next = LinkedList(5)
-head.next.next.next = LinkedList(2)
-head.next.next.next.next = LinkedList(1)
-head.next.next.next.next.next = LinkedList(4)
-
-print(rearrangeLinkedList(head,3).next.next.next.next.next.next.value)

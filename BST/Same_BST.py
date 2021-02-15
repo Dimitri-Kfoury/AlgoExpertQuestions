@@ -54,8 +54,3 @@ def bts(index1, index2, min, max, arrayOne, arrayTwo):
     else:
         return bts(firstSmaller, secondSmaller, min, currentElement, arrayOne, arrayTwo)
 
-
-arrayOne = [10, 15, 8, 12, 94, 81, 5, 2, 10]
-arrayTwo = [10, 8, 5, 15, 2, 10, 12, 94, 81]
-
-print(sameBsts(arrayOne, arrayTwo))

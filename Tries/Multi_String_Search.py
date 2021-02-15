@@ -37,7 +37,3 @@ def helper(big_string, start_idx, strings_found, trie):
         if trie.end_symbol in current_node:
             strings_found[current_node[trie.end_symbol]] = True
 
-
-trie = multiStringSearch('this is a big string hooligan', ['hello','hooligan','brace'])
-print(trie)
-

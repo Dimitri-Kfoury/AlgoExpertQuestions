@@ -31,7 +31,3 @@ def get_next_node(shortest_paths, visited):
 
     return next_node
 
-
-edges = [[[1, 7]], [[2, 6], [3, 20], [4, 3]], [[3, 14]], [[4, 2]], [], []]
-start = 0
-print(dijkstrasAlgorithm(start,edges))

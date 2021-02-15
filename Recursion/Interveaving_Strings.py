@@ -24,10 +24,3 @@ def inter(i, j, one, two, three, cache):
         return cache[i][j]
     cache[i][j] = False
     return False
-
-
-one = "algoexpert"
-two = "your-dream-job"
-three = "your-algodream-expertjob"
-
-print(interweavingStrings(one, two, three))

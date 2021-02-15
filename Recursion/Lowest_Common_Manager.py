@@ -43,11 +43,3 @@ def getOrgCharts():
         orgCharts[letter] = OrgChart(letter)
     return orgCharts
 
-
-orgCharts = getOrgCharts()
-orgCharts["A"].addDirectReports([orgCharts["B"], orgCharts["C"]])
-orgCharts["B"].addDirectReports([orgCharts["D"], orgCharts["E"]])
-orgCharts["C"].addDirectReports([orgCharts["F"], orgCharts["G"]])
-orgCharts["D"].addDirectReports([orgCharts["H"], orgCharts["I"]])
-
-print(findLowest(orgCharts["A"], orgCharts["H"], orgCharts["I"]).name)

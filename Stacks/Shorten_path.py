@@ -33,7 +33,3 @@ def reconstruct_path(stack):
         path += '/' + stack[i]
     return path
 
-
-path = "/../../foo/bar/baz"
-
-print(shortenPath(path))

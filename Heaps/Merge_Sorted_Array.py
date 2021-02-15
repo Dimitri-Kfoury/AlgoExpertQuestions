@@ -28,6 +28,3 @@ def comparison_func(a, b):
     return a[1] < b[1]
 
 
-array = [[1, 5, 9, 21], [-1, 0], [-124, 81, 121], [3, 6, 12, 20, 150]]
-
-print(mergeSortedArrays(array))

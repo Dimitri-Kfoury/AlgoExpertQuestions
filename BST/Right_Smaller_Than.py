@@ -38,8 +38,3 @@ class BST:
                 self.right.insert(value, idx, outputArray, numSmaller)
 
 
-array = [8, 5, 11, -1, 3, 4, 2]
-
-bst = rightSmallerThan(array)
-
-print(bst)

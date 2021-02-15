@@ -23,7 +23,3 @@ def find_loop(edge,edges,visited_nodes):
             visited_nodes[child_edges] = False
     return loop
 
-
-edges = [[1, 2], [2], []]
-
-print(cycleInGraph(edges))

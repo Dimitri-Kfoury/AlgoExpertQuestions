@@ -21,5 +21,3 @@ def numberOfBinaryTreeTopologies(n):
         sum += numberOfBinaryTreeTopologies(left) * numberOfBinaryTreeTopologies(right)
     return sum
 
-
-print(numberOfBinaryTreeTopologies1(10))
